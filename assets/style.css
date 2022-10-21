@@ -1,0 +1,131 @@
+a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* header section */
+  
+.header-section {
+    padding-top: 71px;
+    padding-bottom: 92px;
+
+}
+
+.header-list {
+    display: flex;
+    justify-content: center;
+}
+
+.header-item {
+    margin-left: 100px;
+}
+
+.header-item:first-child {
+    margin-left: 0;
+}
+
+  .header-link {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.36;
+    color: #7d7d7d;
+  }
+  
+  .header-link:hover {
+    color: #03a9f4;
+  }
+
+  .gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    width: 420px;
+    margin-right: 65px;
+    margin-bottom: 130px;
+    
+
+  }
+
+  .gallery-item:nth-child(2n) {
+    margin-right: 0;
+    
+  }
+  
+  .gallery-item:nth-last-child(-n+2) {
+    margin-bottom: 94px;
+  }
+  
+  .gallery-item:hover {
+    /* background-color: ; */
+    box-shadow: 2px 1px 5px rgb(94, 108, 112), 2px 2px 0px rgb(150, 150, 142),
+    0px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .gallery-name {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #b4ad9e;
+
+
+    margin-top: 62px;
+    margin-bottom: 32px;
+  }
+  
+  .gallery-title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.33;
+    color: #626262;
+
+    margin-bottom: 40px;
+  }
+  
+  .gallery-description {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.36;
+    color: #626262;
+  }
+  
+  .gallery-button {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.36;
+    color: #626262;
+    background-color: white;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+  
+  .gallery-button:hover {
+    box-shadow: 2px 1px 5px rgb(94, 108, 112), 2px 2px 0px rgb(150, 150, 142),
+    0px 2px 8px rgba(0, 0, 0, 0.2);
+    /* color: yellow;
+    border: none;
+    padding: 10px; */
+  }
